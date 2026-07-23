@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkForge Blog</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+:root{--bg:#09090b;--card:#111114;--line:#23232b;--text:#f3f4f6;--muted:#9ca3af;--cyan:#62e8e8;--purple:#8b5cf6}
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;background:rgba(9,9,11,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.wrap{width:min(1180px,92%);margin:auto}
+nav{height:78px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:30px;font-weight:700}.logo span{color:var(--cyan)}
+nav a{text-decoration:none;color:var(--muted);margin-left:28px} .cta{background:var(--cyan);padding:12px 20px;border-radius:12px;color:#000;font-weight:bold}
+.hero{padding:90px 0}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.badge{color:var(--cyan);letter-spacing:3px;font-size:13px}
+h1{font-size:64px;line-height:1.05;margin:18px 0}
+p{color:var(--muted);line-height:1.8}
+.search{display:flex;gap:12px;margin-top:28px}.search input{flex:1;padding:16px;border-radius:12px;background:#15151b;border:1px solid var(--line);color:#fff}.search button{padding:16px 24px;border:none;border-radius:12px;background:var(--cyan);font-weight:bold}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;height:420px;padding:24px;position:relative}
+svg{width:100%;height:100%}
+section{padding:60px 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
+.empty{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:70px;margin-top:40px}
+.news{background:linear-gradient(135deg,#15151d,#1c1733);border:1px solid var(--line);border-radius:24px;padding:50px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.news input{padding:16px;border-radius:12px;border:none;background:#101016;color:#fff;width:300px}
+.news button{padding:16px 24px;border:none;border-radius:12px;background:var(--cyan);font-weight:bold}
+footer{padding:30px;text-align:center;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}h1{font-size:44px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav><div class="logo"><span>Link</span>Forge</div><div><a href="/">Home</a><a href="/blog/">Blog</a><a href="/contact.html">Contact</a><a class="cta" href="/app.html">Dashboard</a></div></nav></div></header>
+<div class="wrap hero">
+<div class="hero-grid">
+<div>
+<div class="badge">LINKFORGE KNOWLEDGE HUB</div>
+<h1>Learn SEO. Build Better Links.</h1>
+<p>This page is ready for your future articles. Every guide you publish will appear here automatically as your knowledge base grows.</p>
+<div class="search"><input placeholder="Search articles"><button>Search</button></div>
+</div>
+<div class="panel">
+<svg viewBox="0 0 500 350">
+<line x1="70" y1="250" x2="180" y2="120" stroke="#62e8e8"/><line x1="180" y1="120" x2="320" y2="90" stroke="#62e8e8"/><line x1="320" y1="90" x2="420" y2="180" stroke="#62e8e8"/>
+<circle cx="70" cy="250" r="10" fill="#62e8e8"/><circle cx="180" cy="120" r="8" fill="#8b5cf6"/><circle cx="320" cy="90" r="8" fill="#ffd166"/><circle cx="420" cy="180" r="8" fill="#8b5cf6"/>
+</svg>
+</div></div>
+<section><h2>Browse Topics</h2><div class="cards">
+<div class="card"><h3>SEO</h3><p>Optimization guides.</p></div>
+<div class="card"><h3>Guest Posting</h3><p>Outreach strategies.</p></div>
+<div class="card"><h3>Link Building</h3><p>Authority backlinks.</p></div>
+<div class="card"><h3>AI</h3><p>Content workflows.</p></div>
+</div>
+<div class="empty"><h2>No Articles Published Yet</h2><p>Publish your first article and it will appear here.</p></div>
+</section>
+<section><div class="news"><div><h2>Stay Updated</h2><p>Subscribe for SEO tips and product updates.</p></div><div><input placeholder="Email"><button>Subscribe</button></div></div></section>
+</div>
+<footer>© 2026 LinkForge</footer>
+</body></html>
