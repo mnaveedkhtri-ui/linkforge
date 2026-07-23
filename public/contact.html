@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | LinkForge</title>
+<meta name="description" content="Get in touch with the LinkForge team over email or WhatsApp for support, questions, or feedback.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.linkforge-example.com/contact.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LinkForge">
+<meta property="og:title" content="Contact Us | LinkForge">
+<meta property="og:description" content="Get in touch with the LinkForge team over email or WhatsApp for support, questions, or feedback.">
+<meta property="og:url" content="https://www.linkforge-example.com/contact.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  .contact-hero{padding:64px 0 40px;}
+  .contact-hero h1{font-size:clamp(30px,4.4vw,44px); margin:14px 0 12px;}
+  .contact-hero p{color:var(--text-mid); font-size:16px; max-width:52ch;}
+  .contact-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; padding-bottom:96px;}
+  .contact-card{background:var(--panel); border:1px solid var(--panel-border); border-radius:16px; padding:32px; text-decoration:none; display:flex; flex-direction:column; gap:16px; transition:border-color .15s ease, transform .15s ease;}
+  .contact-card:hover{border-color:rgba(255,255,255,0.22); transform:translateY(-2px);}
+  .contact-card .icon-wrap{width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:rgba(79,216,196,0.12);}
+  .contact-card .icon-wrap svg{width:22px; height:22px;}
+  .contact-card h2{font-size:18px;}
+  .contact-card p{color:var(--text-mid); font-size:14px;}
+  .contact-card .value{font-family:'JetBrains Mono',monospace; font-size:14px; color:var(--teal); word-break:break-word;}
+  @media (max-width:700px){ .contact-grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-row">
+    <a href="/" class="brand" aria-label="LinkForge home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#10121b"/><circle cx="11" cy="11" r="3.4" fill="#4fd8c4"/><circle cx="22" cy="12" r="2.6" fill="#8b7cf6"/><circle cx="16" cy="22" r="2.6" fill="#f6b26b"/><path d="M11 11 L22 12 M11 11 L16 22 M22 12 L16 22" stroke="#4fd8c4" stroke-width="1.3" stroke-opacity="0.6" fill="none"/></svg>
+      LinkForge
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="/#product">Product</a>
+      <a href="/#how-it-works">How it works</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-sm" href="/app">Log in</a>
+      <a class="btn btn-primary btn-sm" href="/app#signup">Create free account</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap contact-hero">
+    <span class="eyebrow">Contact</span>
+    <h1>Get in touch</h1>
+    <p>Questions about setup, the AI features, or anything else. Reach out directly and you'll hear back from a real person.</p>
+  </div>
+
+  <div class="wrap contact-grid">
+    <a class="contact-card" href="mailto:naveedkhtri7@gmail.com">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#4fd8c4" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+      </div>
+      <h2>Email us</h2>
+      <p>Best for detailed questions, bug reports, or anything that needs a proper written reply.</p>
+      <span class="value">naveedkhtri7@gmail.com</span>
+    </a>
+
+    <a class="contact-card" href="https://wa.me/923323219981" target="_blank" rel="noopener">
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="#4fd8c4"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.5-.7-2.5-1.3-3.4-3-.3-.4.3-.4.8-1.3.1-.2 0-.4 0-.5-.1-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.9 2.3 1 2.4c.1.2 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.1 1.5-.1.5-.2 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1 0-.1-.2-.2-.4-.3z"/></svg>
+      </div>
+      <h2>WhatsApp</h2>
+      <p>Fastest way to reach us for quick questions or urgent setup help.</p>
+      <span class="value">+92 332 3219981</span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a href="/" class="foot-brand" aria-label="LinkForge home">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#10121b"/><circle cx="11" cy="11" r="3.4" fill="#4fd8c4"/><circle cx="22" cy="12" r="2.6" fill="#8b7cf6"/><circle cx="16" cy="22" r="2.6" fill="#f6b26b"/><path d="M11 11 L22 12 M11 11 L16 22 M22 12 L16 22" stroke="#4fd8c4" stroke-width="1.3" stroke-opacity="0.6" fill="none"/></svg>
+          LinkForge
+        </a>
+        <p class="foot-about">A real CRM for guest post outreach. Self-hosted, your data, your database, no smoke and mirrors.</p>
+        <div class="foot-social">
+          <a href="https://twitter.com/linkforge" aria-label="LinkForge on X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.3l-7.2 8.2L23.5 22h-6.6l-5.2-6.8L5.7 22H2.4l7.7-8.8L1.9 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.8L7.4 4h-2l12.3 16z"/></svg></a>
+          <a href="https://github.com/linkforge" aria-label="LinkForge on GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2.9-.3 2-.4 3-.4s2.1.1 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.6 18.4.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/company/linkforge" aria-label="LinkForge on LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM.5 8.98h4.96V23H.5V8.98zM8.34 8.98h4.75v1.92h.07c.66-1.2 2.28-2.47 4.7-2.47 5.03 0 5.96 3.2 5.96 7.36V23h-4.96v-6.24c0-1.49-.03-3.4-2.1-3.4-2.1 0-2.42 1.6-2.42 3.29V23H8.34V8.98z"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#product">CRM pipeline</a></li>
+          <li><a href="/#product">Publisher marketplace</a></li>
+          <li><a href="/#product">AI copilot</a></li>
+          <li><a href="/#product">Content studio</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#how-it-works">How it works</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="/app">Log in</a></li>
+          <li><a href="/app#signup">Create free account</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy.html">Privacy policy</a></li>
+          <li><a href="/terms.html">Terms and conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span class="copyright">&copy; <span class="year"></span> LinkForge</span>
+      <div class="foot-legal-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</body>
+</html>
