@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /$
+Allow: /favicon.svg
+Allow: /assets/
+Allow: /shared.css
+Allow: /blog/
+Allow: /privacy.html
+Allow: /terms.html
+Disallow: /app
+Disallow: /app/
+Disallow: /api/
+Disallow: /app.js
+
+Sitemap: https://www.linkforge-example.com/sitemap.xml

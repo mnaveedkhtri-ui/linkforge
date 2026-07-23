@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | LinkForge</title>
+<meta name="description" content="How LinkForge handles account data, pipeline data, and AI requests. Plain-language privacy policy for a self-hosted link building CRM.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.linkforge-example.com/privacy.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/shared.css">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LinkForge">
+<meta property="og:title" content="Privacy Policy | LinkForge">
+<meta property="og:description" content="How LinkForge handles account data, pipeline data, and AI requests.">
+<meta property="og:url" content="https://www.linkforge-example.com/privacy.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav-row">
+    <a href="/" class="brand" aria-label="LinkForge home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#10121b"/><circle cx="11" cy="11" r="3.4" fill="#4fd8c4"/><circle cx="22" cy="12" r="2.6" fill="#8b7cf6"/><circle cx="16" cy="22" r="2.6" fill="#f6b26b"/><path d="M11 11 L22 12 M11 11 L16 22 M22 12 L16 22" stroke="#4fd8c4" stroke-width="1.3" stroke-opacity="0.6" fill="none"/></svg>
+      LinkForge
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="/#product">Product</a>
+      <a href="/#how-it-works">How it works</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-sm" href="/app">Log in</a>
+      <a class="btn btn-primary btn-sm" href="/app#signup">Create free account</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap content-hero">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 24, 2026</p>
+    <p class="dek">LinkForge is software you run yourself, so most of this policy is about what happens on your own server. Here's the plain version, no legal filler.</p>
+  </div>
+
+  <div class="wrap prose">
+    <div class="toc">
+      <h4>On this page</h4>
+      <ol>
+        <li><a href="#overview">The short version</a></li>
+        <li><a href="#what-we-collect">What data exists and where it lives</a></li>
+        <li><a href="#ai-features">What happens when you use the AI features</a></li>
+        <li><a href="#cookies">Cookies and sessions</a></li>
+        <li><a href="#sharing">Who else sees your data</a></li>
+        <li><a href="#retention">How long data sticks around</a></li>
+        <li><a href="#rights">Your rights over your own data</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </div>
+
+    <h2 id="overview">The short version</h2>
+    <p>LinkForge is a self-hosted application. When you install it on your own server, you are the one running the software, and your outreach data, leads, and account details stay in your own database. We (the people who built LinkForge) don't operate a central server that stores your data, and we don't see your pipeline, your contacts, or your drafts unless you show them to us directly.</p>
+    <p>The one exception is the AI features. When you use the AI copilot, Content Studio, or the Humanizer tool, the text you send gets passed along to a third-party AI provider to generate a response. That's covered in more detail below.</p>
+
+    <h2 id="what-we-collect">What data exists and where it lives</h2>
+    <p>Running LinkForge on your own server creates a handful of data types, all stored in the database file on that server:</p>
+    <ul>
+      <li><strong>Account data:</strong> name, email, and a hashed password for anyone who signs up on your instance.</li>
+      <li><strong>Pipeline data:</strong> leads, publishers, campaigns, notes, and stage history you enter into the CRM.</li>
+      <li><strong>Team data:</strong> if you use Team and Roles, the names, emails, and role assignments of people you add.</li>
+      <li><strong>Integration settings:</strong> API tokens and webhook URLs you configure under Settings.</li>
+    </ul>
+    <p>None of this is sent to us. It lives in the database on whatever machine or hosting provider you chose when you deployed LinkForge.</p>
+
+    <h2 id="ai-features">What happens when you use the AI features</h2>
+    <p>The AI copilot, Content Studio, and Humanizer send your prompt (and, where relevant, a summary of your pipeline data needed to answer your question) to an AI model hosted by a third-party provider. That provider processes the request and returns a response, which LinkForge then shows you.</p>
+    <p>This only happens when you actively use one of those three features. Browsing your pipeline, adding leads, or using the publisher marketplace never triggers a request to the AI provider. If you don't add an API key, those features simply won't work, and nothing gets sent anywhere.</p>
+    <p>Check that provider's own privacy policy if you want the full picture of how they handle request data on their end, since that's outside LinkForge's control.</p>
+
+    <h2 id="cookies">Cookies and sessions</h2>
+    <p>LinkForge sets one cookie: a signed session cookie that keeps you logged in after you sign in. It doesn't track you across other websites, and there's no advertising or analytics cookie baked into the software. If you add your own analytics later, that's on you to disclose to your users.</p>
+
+    <h2 id="sharing">Who else sees your data</h2>
+    <p>Nobody, by default. The person who deploys LinkForge controls the server, the database, and who has access to both. If you're a user on someone else's LinkForge instance (for example, a team member added under Team and Roles), the administrator of that instance can see the data you enter, the same way any CRM admin can see what's in the CRM.</p>
+
+    <h2 id="retention">How long data sticks around</h2>
+    <p>Data stays in your database until you delete it. There's no automatic expiration. If you remove a lead, a team member, or your own account, that record is deleted from the database at that point. Back up your own data if you want a copy before deleting anything, since we don't hold a separate backup on your behalf.</p>
+
+    <h2 id="rights">Your rights over your own data</h2>
+    <p>Because you control the server, you already have direct access to export, correct, or delete any data in your instance through the app itself or the database directly. If you're a team member on someone else's instance and want your data corrected or removed, ask that instance's administrator, since they're the one with access to the underlying database.</p>
+
+    <h2 id="children">Children's privacy</h2>
+    <p>LinkForge is built for business outreach and isn't intended for use by children. Don't create accounts for anyone under 16.</p>
+
+    <h2 id="changes">Changes to this policy</h2>
+    <p>If this policy changes in a meaningful way, we'll update the date at the top of this page. Since LinkForge is self-hosted, changes to this policy don't retroactively change how your own deployment handles data. That's still governed by the code running on your server.</p>
+
+    <h2 id="contact">Contact</h2>
+    <p>Questions about this policy or how LinkForge handles data can go to <a href="mailto:privacy@linkforge-example.com">privacy@linkforge-example.com</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <a href="/" class="foot-brand" aria-label="LinkForge home">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#10121b"/><circle cx="11" cy="11" r="3.4" fill="#4fd8c4"/><circle cx="22" cy="12" r="2.6" fill="#8b7cf6"/><circle cx="16" cy="22" r="2.6" fill="#f6b26b"/><path d="M11 11 L22 12 M11 11 L16 22 M22 12 L16 22" stroke="#4fd8c4" stroke-width="1.3" stroke-opacity="0.6" fill="none"/></svg>
+          LinkForge
+        </a>
+        <p class="foot-about">A real CRM for guest post outreach. Self-hosted, your data, your database, no smoke and mirrors.</p>
+        <div class="foot-social">
+          <a href="https://twitter.com/linkforge" aria-label="LinkForge on X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.3l-7.2 8.2L23.5 22h-6.6l-5.2-6.8L5.7 22H2.4l7.7-8.8L1.9 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.8L7.4 4h-2l12.3 16z"/></svg></a>
+          <a href="https://github.com/linkforge" aria-label="LinkForge on GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2.9-.3 2-.4 3-.4s2.1.1 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.6 18.4.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/company/linkforge" aria-label="LinkForge on LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM.5 8.98h4.96V23H.5V8.98zM8.34 8.98h4.75v1.92h.07c.66-1.2 2.28-2.47 4.7-2.47 5.03 0 5.96 3.2 5.96 7.36V23h-4.96v-6.24c0-1.49-.03-3.4-2.1-3.4-2.1 0-2.42 1.6-2.42 3.29V23H8.34V8.98z"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#product">CRM pipeline</a></li>
+          <li><a href="/#product">Publisher marketplace</a></li>
+          <li><a href="/#product">AI copilot</a></li>
+          <li><a href="/#product">Content studio</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#how-it-works">How it works</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="/app">Log in</a></li>
+          <li><a href="/app#signup">Create free account</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy.html">Privacy policy</a></li>
+          <li><a href="/terms.html">Terms and conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span class="copyright">&copy; <span class="year"></span> LinkForge</span>
+      <div class="foot-legal-links">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>document.querySelectorAll('.year').forEach(el => el.textContent = new Date().getFullYear());</script>
+</body>
+</html>

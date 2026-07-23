@@ -1,0 +1,329 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Javeria khatri",
+      "email": "javeriakhatri4@gmail.com",
+      "company": "",
+      "passwordHash": "$2b$10$8NxQyey.tHfCwaLkXejJVe42xE8p2GSZRERGcxwQhbUfT6Zre0Vii",
+      "createdAt": "2026-07-23T22:17:10.818Z",
+      "integrations": {
+        "slack": false,
+        "zapier": false,
+        "sheets": false
+      },
+      "apiToken": "lf_7fu5hhvxyg82kga4llp23pa2yvoyzse5"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "TechDaily",
+      "domain": "techdaily.io",
+      "niche": "SaaS & Tech",
+      "dr": 78,
+      "monthlyTraffic": 438000,
+      "replyRateEstimate": 45,
+      "price": 325,
+      "turnaroundDays": 3,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Growth Weekly",
+      "domain": "growthweekly.com",
+      "niche": "Finance",
+      "dr": 82,
+      "monthlyTraffic": 31000,
+      "replyRateEstimate": 37,
+      "price": 535,
+      "turnaroundDays": 5,
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "SaaS Insider",
+      "domain": "saasinsider.co",
+      "niche": "Marketing",
+      "dr": 42,
+      "monthlyTraffic": 264000,
+      "replyRateEstimate": 30,
+      "price": 175,
+      "turnaroundDays": 14,
+      "verified": false
+    },
+    {
+      "id": 4,
+      "name": "MarketMinds",
+      "domain": "marketminds.io",
+      "niche": "Health",
+      "dr": 55,
+      "monthlyTraffic": 37000,
+      "replyRateEstimate": 40,
+      "price": 285,
+      "turnaroundDays": 5,
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "The Startup Ledger",
+      "domain": "startupledger.com",
+      "niche": "Marketing",
+      "dr": 58,
+      "monthlyTraffic": 173000,
+      "replyRateEstimate": 54,
+      "price": 647,
+      "turnaroundDays": 5,
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "FinTech Pulse",
+      "domain": "fintechpulse.net",
+      "niche": "Marketing",
+      "dr": 61,
+      "monthlyTraffic": 337000,
+      "replyRateEstimate": 35,
+      "price": 539,
+      "turnaroundDays": 7,
+      "verified": true
+    },
+    {
+      "id": 7,
+      "name": "Wealth Signals",
+      "domain": "wealthsignals.co",
+      "niche": "E-commerce",
+      "dr": 42,
+      "monthlyTraffic": 155000,
+      "replyRateEstimate": 37,
+      "price": 633,
+      "turnaroundDays": 13,
+      "verified": false
+    },
+    {
+      "id": 8,
+      "name": "Healthline Voices",
+      "domain": "healthlinevoices.com",
+      "niche": "Finance",
+      "dr": 69,
+      "monthlyTraffic": 441000,
+      "replyRateEstimate": 47,
+      "price": 530,
+      "turnaroundDays": 9,
+      "verified": true
+    },
+    {
+      "id": 9,
+      "name": "Wellness Weekly",
+      "domain": "wellnessweekly.co",
+      "niche": "E-commerce",
+      "dr": 67,
+      "monthlyTraffic": 84000,
+      "replyRateEstimate": 38,
+      "price": 144,
+      "turnaroundDays": 8,
+      "verified": true
+    },
+    {
+      "id": 10,
+      "name": "The Marketing Loop",
+      "domain": "themarketingloop.com",
+      "niche": "Productivity",
+      "dr": 73,
+      "monthlyTraffic": 70000,
+      "replyRateEstimate": 23,
+      "price": 198,
+      "turnaroundDays": 11,
+      "verified": true
+    },
+    {
+      "id": 11,
+      "name": "Conversion Notes",
+      "domain": "conversionnotes.io",
+      "niche": "Health",
+      "dr": 69,
+      "monthlyTraffic": 63000,
+      "replyRateEstimate": 16,
+      "price": 465,
+      "turnaroundDays": 3,
+      "verified": true
+    },
+    {
+      "id": 12,
+      "name": "Shopify Circle",
+      "domain": "shopifycircle.com",
+      "niche": "E-commerce",
+      "dr": 69,
+      "monthlyTraffic": 185000,
+      "replyRateEstimate": 16,
+      "price": 459,
+      "turnaroundDays": 12,
+      "verified": true
+    },
+    {
+      "id": 13,
+      "name": "Retail Rewired",
+      "domain": "retailrewired.com",
+      "niche": "SaaS & Tech",
+      "dr": 69,
+      "monthlyTraffic": 283000,
+      "replyRateEstimate": 42,
+      "price": 124,
+      "turnaroundDays": 11,
+      "verified": true
+    },
+    {
+      "id": 14,
+      "name": "Founder Notes",
+      "domain": "foundernotes.co",
+      "niche": "E-commerce",
+      "dr": 44,
+      "monthlyTraffic": 409000,
+      "replyRateEstimate": 26,
+      "price": 487,
+      "turnaroundDays": 3,
+      "verified": false
+    },
+    {
+      "id": 15,
+      "name": "B2B Growth Lab",
+      "domain": "b2bgrowthlab.com",
+      "niche": "Finance",
+      "dr": 48,
+      "monthlyTraffic": 221000,
+      "replyRateEstimate": 20,
+      "price": 94,
+      "turnaroundDays": 8,
+      "verified": false
+    },
+    {
+      "id": 16,
+      "name": "Remote Work Digest",
+      "domain": "remoteworkdigest.com",
+      "niche": "Health",
+      "dr": 62,
+      "monthlyTraffic": 258000,
+      "replyRateEstimate": 26,
+      "price": 120,
+      "turnaroundDays": 8,
+      "verified": true
+    },
+    {
+      "id": 17,
+      "name": "Ops Weekly",
+      "domain": "opsweekly.io",
+      "niche": "Health",
+      "dr": 60,
+      "monthlyTraffic": 186000,
+      "replyRateEstimate": 34,
+      "price": 215,
+      "turnaroundDays": 13,
+      "verified": true
+    },
+    {
+      "id": 18,
+      "name": "DevTools Review",
+      "domain": "devtoolsreview.com",
+      "niche": "SaaS & Tech",
+      "dr": 72,
+      "monthlyTraffic": 365000,
+      "replyRateEstimate": 36,
+      "price": 499,
+      "turnaroundDays": 7,
+      "verified": true
+    },
+    {
+      "id": 19,
+      "name": "Cloud Native News",
+      "domain": "cloudnativenews.io",
+      "niche": "Marketing",
+      "dr": 78,
+      "monthlyTraffic": 67000,
+      "replyRateEstimate": 21,
+      "price": 493,
+      "turnaroundDays": 4,
+      "verified": true
+    },
+    {
+      "id": 20,
+      "name": "Indie Hackers Corner",
+      "domain": "indiehackerscorner.com",
+      "niche": "E-commerce",
+      "dr": 38,
+      "monthlyTraffic": 266000,
+      "replyRateEstimate": 21,
+      "price": 470,
+      "turnaroundDays": 7,
+      "verified": false
+    },
+    {
+      "id": 21,
+      "name": "Content Compass",
+      "domain": "contentcompass.co",
+      "niche": "Finance",
+      "dr": 48,
+      "monthlyTraffic": 51000,
+      "replyRateEstimate": 21,
+      "price": 261,
+      "turnaroundDays": 8,
+      "verified": false
+    },
+    {
+      "id": 22,
+      "name": "Data Driven Digest",
+      "domain": "datadrivendigest.com",
+      "niche": "Health",
+      "dr": 40,
+      "monthlyTraffic": 56000,
+      "replyRateEstimate": 42,
+      "price": 255,
+      "turnaroundDays": 11,
+      "verified": false
+    },
+    {
+      "id": 23,
+      "name": "UX Notes",
+      "domain": "uxnotes.io",
+      "niche": "Marketing",
+      "dr": 53,
+      "monthlyTraffic": 373000,
+      "replyRateEstimate": 34,
+      "price": 364,
+      "turnaroundDays": 4,
+      "verified": true
+    },
+    {
+      "id": 24,
+      "name": "Bootstrap Weekly",
+      "domain": "bootstrapweekly.com",
+      "niche": "SaaS & Tech",
+      "dr": 60,
+      "monthlyTraffic": 206000,
+      "replyRateEstimate": 55,
+      "price": 101,
+      "turnaroundDays": 6,
+      "verified": true
+    }
+  ],
+  "campaigns": [],
+  "leads": [],
+  "placements": [],
+  "chatMessages": [
+    {
+      "id": 1,
+      "userId": 1,
+      "role": "user",
+      "text": "hi",
+      "createdAt": "2026-07-23T22:17:24.336Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "role": "ai",
+      "text": "You've got no leads or campaigns set up yet. What kind of website are you trying to build links for?",
+      "createdAt": "2026-07-23T22:17:24.741Z"
+    }
+  ],
+  "contentDrafts": [],
+  "teamMembers": []
+}
