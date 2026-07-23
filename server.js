@@ -374,9 +374,13 @@ app.post('/api/chat', requireAuth, async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`LinkForge server running on http://localhost:${PORT}`);
-  if (!GROQ_API_KEY) {
-    console.log('Warning: GROQ_API_KEY is not set. AI features will not work until you add it to .env');
-  }
-});
+if (process.env.VERCEL !== '1') {
+  app.listen(PORT, () => {
+    console.log(`LinkForge server running on http://localhost:${PORT}`);
+    if (!GROQ_API_KEY) {
+      console.log('Warning: GROQ_API_KEY is not set. AI features will not work until you add it to .env');
+    }
+  });
+}
+
+export default app;
